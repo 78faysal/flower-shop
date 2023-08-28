@@ -1,0 +1,85 @@
+body {
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+    padding: 0px 100px;
+    padding-top: 20px;
+    background-color: #e554732a;
+}
+
+header>img {
+    width: 400px;
+}
+
+.header-title {
+    font-size: 40px;
+}
+
+.button {
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    color: white;
+    background: #e55473;
+}
+
+
+/* feature section  */
+.feature_header {
+    display: flex;
+    justify-content: center;
+}
+
+.feature_header>div {
+    text-align: center;
+    width: 500px;
+}
+
+.flower-trees{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 150px;
+}
+
+.flower-trees p{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#pink-flower > img{
+    background-color: #a7216223;
+    width: 70%;
+    padding: 45px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding-bottom: 0px;
+}
+
+#blue-flower > img{
+    background-color: #0598a02f;
+    height: 0%;
+    width: 70%;
+    padding: 45px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    /* padding-bottom: 0px; */
+}
+
+#yellow-flower > img{
+    background-color: #477d112a;
+    width: 70%;
+    padding: 45px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
