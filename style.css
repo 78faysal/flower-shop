@@ -133,6 +133,27 @@ header>img {
 }
 
 
+/* feedback section  */
+.feedback-section{
+    margin: 100px 0px;
+    padding: 0px 100px;
+    text-align: center;
+}
+
+.feedbacks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.feedbacks div{
+    background: #e554732a;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
 
 
 /* leatest deal section  */
