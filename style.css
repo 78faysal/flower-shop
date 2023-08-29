@@ -32,6 +32,11 @@ header>img {
 
 
 /* feature section  */
+.flower-feature{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .feature_header {
     display: flex;
     justify-content: center;
@@ -82,4 +87,69 @@ header>img {
     border-top-right-radius: 150px;
     padding-top: 5px;
     padding-bottom: 0px;
+}
+
+
+/* hot deal section  */
+.deal-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+    background-color: #e554732a;
+    padding: 30px 100px;
+}
+
+.red-text{
+    color: #e55473;
+}
+
+
+
+
+/* instagram section  */
+#instagram-section{
+    padding: 0px 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#instagram-section > div{
+    display: flex;
+    justify-content: center;
+}
+.insta-texts{
+    width: 50%;
+    margin-bottom: 10px;
+}
+#insta-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#insta-images img{
+    width: 250px;
+}
+
+
+
+/* footer section  */
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+footer > div{
+    width: 50%;
+}
+
+footer small{
+    color: gray;
 }
